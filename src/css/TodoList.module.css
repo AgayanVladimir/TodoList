@@ -1,0 +1,49 @@
+.todoList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todoList__text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.todoList__tools {
+  display: flex;
+  gap: 10px;
+}
+
+.tools__delete {
+  max-width: 30px;
+  padding: 5px;
+  background-color: yellow;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools__change {
+  max-width: 30px;
+  padding: 5px;
+  background-color: yellow;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools__lock {
+  max-width: 30px;
+  padding: 5px;
+  background-color: yellow;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoList__tools img {
+  width: 100%;
+}

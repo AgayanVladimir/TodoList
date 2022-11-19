@@ -1,0 +1,20 @@
+label {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.addTodo {
+  width: 60%;
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  padding: 5px 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
